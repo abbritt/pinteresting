@@ -5,15 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-group :development, :test do
-     gem 'sqlite3'
-end
-
-group :production do
-     gem 'pg'
-     gem 'rails_12factor'
-end
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
 # Use Puma as the app server
@@ -62,3 +53,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :development, :test do
+     gem 'sqlite3'
+end
+
+group :production do
+     gem 'pg'
+     gem 'rails_12factor'
+end
