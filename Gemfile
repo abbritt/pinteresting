@@ -30,6 +30,9 @@ gem 'uglifier', '>= 1.3.0'
 #rake fix
 gem 'rake', '< 11'
 
+#images
+gem 'paperclip', '~> 4.2'
+
 
 
 
