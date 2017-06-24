@@ -1,0 +1,13 @@
+current directory: /Users/actbluebackup3/Documents/workspace/pinteresting/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+/Users/actbluebackup3/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170623-96717-12rpgev.rb extconf.rb
+creating Makefile
+
+current directory: /Users/actbluebackup3/Documents/workspace/pinteresting/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/actbluebackup3/Documents/workspace/pinteresting/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/actbluebackup3/Documents/workspace/pinteresting/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
